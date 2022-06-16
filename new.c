@@ -31,8 +31,5 @@ int main()
                 printf("write something meaningfull for once...\n");
                 break;
         }
-        
-        // printf("more?: ");
-        // scanf(" %c", &confirm);
     }
 }
