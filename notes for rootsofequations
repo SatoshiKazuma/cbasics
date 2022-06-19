@@ -1,0 +1,36 @@
+input format 
+(a)x^2+(b)x+(c)=0
+
+quadratic formula
+
+(-b±sqrt((b**2)-4*a*c))/(2*a)
+
+now the vital part,
+
+Disc = b**2-(4*a*c)
+
+if Disc > 0 => 2 real and distinct roots 
+   Disc < 0 => 2 imaginary roots
+   Disc == 0 => 2 real and equal roots
+
+if Disc>0
+    root1 = (-b+sqrt(Disc))/(2*a)
+    root2 = (-b-sqrt(Disc))/(2*a)
+
+if Disc==0
+    root1 = root2 = -b/(2*a)
+
+if Disc<0
+    root1 = (-b + sqrt(-Disc))/(2*a) 
+    root2 = (-b - sqrt(-Disc))/(2*a) 
+    realpart = (-b)\(2*a);
+    imagpart = sqrt(-Disc)/(2*a);
+
+Test code for sqrt() and abs()
+    float a, b;
+    printf("A value: ");
+    scanf("%f",&a);
+    a=abs(a);
+    b=sqrt(a);
+    printf("%f",b);
+    
