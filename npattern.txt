@@ -1,4 +1,5 @@
-end result 1
+HALF PYRAMID
+
 *
 **
 ***
@@ -10,7 +11,7 @@ loop 2 must add stars
 got it j must be less than 1
 done
 
-end result 2
+SQUARE WITH GAP
 
    1 2 3 4 5 
 1  * * * * *
@@ -18,7 +19,8 @@ end result 2
 3  *       *
 4  *       *
 5  * * * * *
-  
+ 
+
   in the j loop which takes care of columns, 
   any value of j that is within 2 and 4 
   and is within an i value of 2 and 4 (basically (2,2) and (4,4))

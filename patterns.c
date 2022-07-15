@@ -7,11 +7,11 @@ void main()
         {
             if ((((j - 4) * (j - 2)) <= 0) && (((i - 4) * (i - 2)) <= 0))
             {
-                printf(" ");
+                printf("  ");
             }
             else
             {
-                printf("*");
+                printf("* ");
             }
             
         }
