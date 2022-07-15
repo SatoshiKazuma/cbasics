@@ -1,0 +1,28 @@
+end result 1
+*
+**
+***
+****
+*****
+
+2 for loops that iterate over rows and columns
+loop 2 must add stars
+got it j must be less than 1
+done
+
+end result 2
+
+   1 2 3 4 5 
+1  * * * * *
+2  *       *
+3  *       *
+4  *       *
+5  * * * * *
+  
+  in the j loop which takes care of columns, 
+  any value of j that is within 2 and 4 
+  and is within an i value of 2 and 4 (basically (2,2) and (4,4))
+  is to be a blank space
+  
+  main condition 
+  ((((j - 4) * (j - 2)) <= 0) && (((i - 4) * (i - 2)) <= 0))
