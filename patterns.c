@@ -89,7 +89,7 @@
 //     }
 // }
 
-//DIAMOND
+// DIAMOND
 // void main()
 // {
 //     for (int i = -4; i <= 4; i++)
@@ -101,9 +101,9 @@
 //                 printf("  ");
 //             }
 //         }
-//         for (int k = 0; k <= 8; k++)
+//         for (int k = 8; k >= 0; k--)
 //         {
-//             if (k > (abs(i)+(abs(i)-1)))
+//             if (k > (abs(i) + (abs(i) - 1)))
 //             {
 //                 printf("* ");
 //             }
