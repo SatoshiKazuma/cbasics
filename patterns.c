@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 // SQUARE WITH GAPS
 //  void main()
 //  {
@@ -49,7 +50,7 @@
 //          printf("\n");
 //      }
 //  }
-// The black widow symbol
+// THE BLACK WIDOW SYMBOL
 // int main()
 // {
 //     for (int i = 1; i <= 10; i++)
@@ -69,16 +70,38 @@
 //     }
 // }
 
-void main(){
-    for (int i = 1; i <= 5; i++)
+// FULL PYRAMID
+// void main(){
+//     for (int i = 1; i <= 5; i++)
+//     {
+//         for (int j = 1; j <= (5-i); j++)
+//         {
+//             printf("  ");
+//         }
+//         for (int k = 0; k <= 8; k++)
+//         {
+//             if (k < (i+(i-1)))
+//             {
+//                 printf("* ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+void main()
+{
+    for (int i = -4; i <= 4; i++)
     {
-        for (int j = 1; j <= (5-i); j++)
+        for (int j = 1; j <= 4; j++)
         {
-            printf("  ");
+            if ((abs(i) >= j))
+            {
+                printf("  ");
+            }
         }
         for (int k = 0; k <= 8; k++)
         {
-            if (k < (i+(i-1)))
+            if (k > (abs(i)+(abs(i)-1)))
             {
                 printf("* ");
             }
@@ -86,5 +109,4 @@ void main(){
         
         printf("\n");
     }
-    
 }
