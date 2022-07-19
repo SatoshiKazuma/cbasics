@@ -49,7 +49,7 @@
 //          printf("\n");
 //      }
 //  }
-
+// The black widow symbol
 // int main()
 // {
 //     for (int i = 1; i <= 10; i++)
@@ -69,15 +69,22 @@
 //     }
 // }
 
-
-// void main(){
-//     for (int i = 0; i <= 5; i++)
-//     {
-//         for (int j = 0; j <= 5; j++)
-//         {
-//             ;
-//         }
+void main(){
+    for (int i = 1; i <= 5; i++)
+    {
+        for (int j = 1; j <= (5-i); j++)
+        {
+            printf("  ");
+        }
+        for (int k = 0; k <= 8; k++)
+        {
+            if (k < (i+(i-1)))
+            {
+                printf("* ");
+            }
+        }
         
-//     }
+        printf("\n");
+    }
     
-// }
+}
