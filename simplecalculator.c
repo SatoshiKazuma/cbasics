@@ -31,5 +31,14 @@ int main()
                 printf("write something meaningfull for once...\n");
                 break;
         }
+        printf("do you want to continue?\n");
+        scanf(" %c", &confirm);
+        if (confirm == 'n'){
+            printf("Terminating program\n");
+            break;}
+        else if (confirm == 'y'){ 
+            continue;}
+        else{ 
+            break;}
     }
 }
